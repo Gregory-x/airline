@@ -19,5 +19,5 @@ from flights.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("flights/", index)
+    path("flights/", include('flights.urls'))
 ]
