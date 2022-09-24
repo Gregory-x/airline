@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from flights.views import index
-
+#urls are referenced in urls.py meaning that flights refers to a specific url but you can just #it meaning you can refer it
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("flights/", include('flights.urls'))
