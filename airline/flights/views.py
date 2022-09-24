@@ -11,4 +11,5 @@ def flight(request, flight_id):
     flight = Flight.objects.get(pk = flight_id) # pk stands for primary key which is the id of the flight in this case
     return render(request, "flights/flight.html", {
         "flight" : flight # passing the second flight variable to flight.html as input
+
     })
