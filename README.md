@@ -1,2 +1,2 @@
 # airline
-airline website w django ( python )
+airline website w django
